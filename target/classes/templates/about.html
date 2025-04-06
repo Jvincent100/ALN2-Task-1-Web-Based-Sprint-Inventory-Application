@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Josh's Treats</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS Style -->
+    <style>
+        body {
+            background-color: #FFF8DC;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            background-color: #FF7F50;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: #ff0000;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: #FFFFFF
+        }
+        .well-lg {
+            padding: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #34495e;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h2 class="display-1 mb-5">About Josh's Treats</h2>
+        <div class="mb-5 text-center">
+            <a th:href="@{/mainscreen}">
+                <button class="btn btn-custom">Back to Home</button>
+            </a>
+        </div>
+        <div class="well-lg shadow bg-white rounded">
+            <p>
+                At Josh's Treats, our journey began with a simple passion for crafting delightful and wholesome snacks. Founded by Josh in 2015, we have grown from a small kitchen experiment to a beloved local brand known for our commitment to quality and taste. Each treat is made with the finest ingredients, ensuring every bite is a burst of flavor and joy.
+            </p>
+            <p>
+                Our mission at Josh's Treats is to bring a little bit of happiness to every customer through our delicious snacks. We believe in creating treats that not only taste amazing but also nourish the body and soul. With a focus on natural ingredients and innovative recipes, we strive to offer a variety of options that cater to different tastes and dietary preferences.
+            </p>
+            <p>
+                We are committed to excellence in every aspect of our business, from the sourcing of ingredients to the final product that reaches your hands. Sustainability and community are at the heart of what we do, and we are proud to support local farmers and suppliers. At Josh's Treats, we are dedicated to making a positive impact through our products, ensuring that every treat is crafted with care and love.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
